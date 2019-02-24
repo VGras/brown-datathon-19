@@ -96,3 +96,5 @@ model = XGBClassifier()
 model.fit(train[features], train[labels])
 
 print(model.score(test[features], test[labels]))
+print(model.feature_importances_)
+print(str(features))
