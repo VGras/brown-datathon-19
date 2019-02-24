@@ -110,9 +110,6 @@ if not WITH_PRICES:
     features.remove("prices_min")
     features.remove("prices_max")
     features.remove("prices_avg")
-#    features.remove("stars_min")
-#    features.remove("stars_max")
-#    features.remove("stars_avg")
     labels = "book_star"
 else:
     labels = "book_zip"
